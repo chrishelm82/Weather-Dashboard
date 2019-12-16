@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
 </head>
+
 <body>
-    
+
+    <h1>
+        <header>Weather Dashboard</header>
+    </h1>
+    <div container>
+        <div class="row">Search for a City:</div>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        <div class="row">Austin</div>
+        <div class="row">Chicago</div>
+        <div class="row">New York</div>
+        <div class="row">Orlando</div>
+        <div class="row">San Francisco</div>
+        <div class="row">Seattle</div>
+        <div class="row">Denver</div>
+        <div class="row">Atlanta</div>
+    </div>
+
+    <div class="container">
+        <div>
+            <strong>
+                <h2>Atlanta (8/15/2019)</h2>
+            </strong>
+        </div>
+
+        <div class="row">Temperature 90.0 F</div>
+        <div class="row">Humidity: 41%</div>
+        <div class="row">Wind Speed: 4.7 MPH</div>
+        <div class="row">UV Index 9.49</div>
+    </div>
+
+    <br>
+
+    <div class="container"></div>
+    <strong>
+        <div class="row">5-Day Forecast</div>
+    </strong>
+
 </body>
+
 </html>
