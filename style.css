@@ -55,12 +55,12 @@ form.example::after {
 
 /* Style the boxes for the cities */
 .cities {
-    height: 120px;
-    width: 100px;
-    
+    height: 140px;
+    width: 100px;  
     float: left;
     background-color:#2196F3;
-    font: white;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    color: white;
 
 }
