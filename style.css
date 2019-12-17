@@ -10,7 +10,7 @@ h1 {
 
 /* Style the entire container */ 
 .container {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 * {
@@ -54,11 +54,13 @@ form.example::after {
 }
 
 /* Style the boxes for the cities */
-.p {
-    padding: 5px;
-    font-size: 17px;
-    border: 1px solid grey;
+.cities {
+    height: 120px;
+    width: 100px;
+    
     float: left;
-    width: 10%;
-    background: white;
+    background-color:#2196F3;
+    font: white;
+    margin: 10px;
+
 }
