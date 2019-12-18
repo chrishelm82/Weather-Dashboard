@@ -53,7 +53,25 @@ form.example::after {
     display: table;
 }
 
-/* Style the boxes for the cities */
+/* Style top half cities */
+.box {
+    height: 5px;
+    width: 5px;  
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    color: black;
+    border-width: 1px;
+    border-color: black;
+}
+
+.Atlanta {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Style the boxes for the cities below */
 .cities {
     height: 140px;
     width: 100px;  
@@ -62,5 +80,4 @@ form.example::after {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     color: white;
-
 }
