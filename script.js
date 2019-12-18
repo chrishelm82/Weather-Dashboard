@@ -1,3 +1,8 @@
+document.getElementById('link').onclick = function()
+{
+    location.href = document.getElementById('link_id').value;
+};
+
 $(document).ready(function(){
 
     $('#submitWeather').click(function(){
@@ -39,22 +44,6 @@ function show(data){
     "<h3><strong>Max. Temperature</strong>: "+ data.main.temp_max + "</h3>"
     "<h3><strong>Wind Speed</strong>: "+ data.wind.speed +"</h3>"
     "<h3><strong>Weather</strong>: "+ data.wind.deg+ "</h3>";
-
-}
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
