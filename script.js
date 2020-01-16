@@ -6,7 +6,7 @@ $(document).ready(function() {
     if (city != "") {
       $.ajax({
         url:
-          "http://api.openweathermap.org/data/2.5/weather?q=" +
+          "https://api.openweathermap.org/data/2.5/weather?q=" +
           city +
           "&units=imperial" +
           "&APPID=d2ccc27ebc1c88c39919cbfa59aa9fde",
