@@ -1,83 +1,162 @@
-/* Style the Header */
-h1 {
+
+/* Background image */
+#showcase{
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/9/180406.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding: 0 20px;
+    }
+
+/* Start Nav-------------*/
+div.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 20px 20px 20px 20px;
+    /* width: 100%; */
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.7); 
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.7);
+}
+
+.nav h1 {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    float: left;
+    display: block;
+    font-size: 1.8em;
+    padding: 16px 30px 15px 30px;
+    margin: 0px 10px 0px 10px;
     background-color: black;
-    font-size: 30px;
-    color: white;
+    color: rgba(0,212,255,1);
+}
+
+.nav>button {
+    float: right;
+    display: block;
+    padding: 10px 10px 10px 10px ;
+    margin: -30px 10px 10px 10px ;        
+}
+
+/* End Nav---------------*/
+
+h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+	color: #000;
+	font-size: 2.2em;
+    font-weight: bold;
 }
 
-/* Style the entire container */ 
-.container {
-    background-color: white;
+#container {
+    text-align: center;
+    margin-top: 30px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.wrapper {
+    display: inline-block;
+    max-width: 50%;
+    background: rgb(2,0,36);
+    background: linear-gradient(220deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 3%, rgba(0,212,255,1) 100%);
+    border: 1px solid black;
+    border-radius: 12px; 
 }
 
-/* Style the search field */
-form.example input[type=text] {
+/* 5 day boxes  */
+.row {
+    text-align: center;
+}
+
+.col-sm {
+    text-align: center;
+    margin: 5px 5px 30px 5px; 
     padding: 5px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 10%;
-    background: #f1f1f1;
 }
 
-/* Style the submit button */
-form.example button {
-    float: left;
-    width: 5%;
+.main>img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    font-size: 1.2em;
+}
+
+.main>h2 {
+    margin: 5px;
     padding: 5px;
-    background: #2196F3;
     color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    /* Prevent double borders */
-    cursor: pointer;
-}
-
-form.example button:hover {
-    background: #0b7dda;
-}
-
-/* Clear floats */
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Style top half cities */
-.box {
-    height: 5px;
-    width: 5px;  
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 8px;
-    color: black;
-    border-width: 1px;
-    border-color: black;
-}
-
-.Atlanta {
-font-family: Arial, Helvetica, sans-serif;
 }
 
 
+/* start footer */
+.sun-foot {
+    overflow: hidden;
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgb(8, 8, 138);
+}
 
-/* Style the boxes for the cities below */
-.cities {
-    height: 140px;
-    width: 100px;  
+img.floatL {
+    margin: 10px 5px 5px 15px ;
     float: left;
-    background-color:#2196F3;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    color: white;
+    max-width: 40px;
+}
+
+img.floatR {
+    margin: 10px 15px 5px 5px ;
+    float:right;
+    max-width: 40px;
+}
+
+p.floatL {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 10px 10px 0px;
+    margin: 20px 10px 10px 0px;
+    color:white;
+    display: block;
+    float: left;
+}
+
+p.floatR {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 0px 10px 10px;
+    margin: 20px 0px 10px 10px;
+    color:white;
+    display: block;
+    float: right; 
+}
+
+/* search box*/ 
+button {
+    background-color: rgba(0,212,255,1);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.7); 
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.7);
+}
+
+input {
+    margin: 0px 10px 0px 10px;
+    box-shadow: 0 0 0 1pt grey;
+    border: 2px solid rgba(0,212,255,1);
+    border-radius: 5px;
+}
+
+.center {
+    text-align:center;
+}
+
+.search {
+    display:inline-block;
 }
