@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
-You can check out the weather conditions searching any city in the U.S. and get back an extended 5 day forecast. 
+This app will allow you to check out the weather conditions searching any city in the U.S. and get back an extended 5 day forecast. 
 
 Weather conditions include
 -City
