@@ -1,7 +1,6 @@
 # Weather-Dashboard
 
-This app will show you local weather conditions based on a U.S. city search and an extended 5 day forecast for the same city.
-The application is preloaded with two cities, and searching for a new US city will both display the weather for that city and add a persistent button for that city
+You can check out the weather conditions searching any city in the U.S. and get back an extended 5 day forecast. 
 
 Weather conditions include
 -City
